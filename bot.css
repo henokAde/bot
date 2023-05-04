@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,400;1,500&display=swap');
 .bpw-floating-button {
     /* Aligns the button to the right side of the container */
     background-color: #fb8f67ff;
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
     margin-right: 10px;
+    border-radius: 30px;
 }
 
 /* Modifier la font de la conversation */
@@ -70,7 +72,13 @@
 
 .bpw-composer textarea {
     padding-top: 20px;
+    font-size: 12px;
 }
+
+.bpw-send-button {
+    font-family: 'Ysabeau'
+}
+
  
 
 
@@ -80,7 +88,11 @@
 /* Animations  */
 
 .bpw-floating-button:hover{
-    transform: translate3d(0px, 0px, 0px) scale3d(1.2, 1.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     background-color: #00c49aff;
    
   }
+
+
+ 
+ 
+  
