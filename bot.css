@@ -19,7 +19,7 @@
 }
 
 .bpw-keyboard-single-choice{
-    border: 1px solid rgba(79, 100, 111, 0.7);
+    border: 0.5px solid rgba(79, 100, 111, 0.7);
 }
 
 /* Modification du header de la conversation */
@@ -106,14 +106,15 @@
 
   @media screen and (max-width: 768px){
     .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-        font-size: 10px;
+        font-size: 14px;
+        padding: 0.5em;
         
         
     }
     
     .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content{
-        font-size: 10px;
-        
+        font-size: 14px;
+        padding: 0.5em;
     }
 
     .bpw-bot-avatar img, .bpw-bot-avatar svg {
@@ -128,6 +129,18 @@
         backdrop-filter: blur( 60px );
         -webkit-backdrop-filter: blur( §0px );
         border-radius: 12px 0 0 12px;
+    }
+
+    .bpw-header-name{
+        font-size: 12px;
+    }
+
+    .bpw-header-icon{
+        width: 16px;
+    }
+
+    .bpw-send-button {
+        font-size: 12px;
     }
     
   }
