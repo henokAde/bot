@@ -39,31 +39,53 @@
  }
 
  .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-    border-radius: 12px;
+    border-radius: 12px 12px 12px 0px;
     
      box-shadow: 0 1px 2px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 20px );
     -webkit-backdrop-filter: blur( 20px );
-    border-radius: 12px;
+   
     border: 1px solid rgba(79, 100, 111, 0.1);
     
 }
 
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content{
-     border-radius: 10px;
+    border-radius: 12px 12px 0px 12px;
     background-color : #4f646f;
        box-shadow: 0 1px 2px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 20px );
     -webkit-backdrop-filter: blur( 20px );
-    border-radius: 12px;
+  
     border: 1px solid rgba(79, 100, 111, 0.1);
  
     
 }
 
 .bpw-keyboard-single-choice{
-    padding: 0
+    padding: 0;
+    background-color: wheat;
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
+
+.bpw-button{
+
+    
+    background: white;
+   box-shadow: 0 1px 2px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 20px );
+   -webkit-backdrop-filter: blur( 20px );
+   border-radius: 12px;
+   border: 1px solid rgba(79, 100, 111, 0.1);
+   font-size: 12px;
+   font-family: 'Ysabeau';
+   padding: 0.5em;
+
+}
+
 
 
 
