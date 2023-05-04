@@ -107,13 +107,19 @@
 }
 
 .bpw-composer textarea {
-    padding-top: 18px;
-    font-size: 12px;
+    /* padding-top: 18px; */
+    font-size: 17px;
 }
 
 .bpw-send-button {
     font-family: 'Ysabeau'
 }
+
+input, textarea {
+    /* désactiver le zoom sur les éléments sélectionnables */
+    user-scalable: no;
+  }
+  
 
  
 
