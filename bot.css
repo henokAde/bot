@@ -18,6 +18,11 @@
     border-radius: 12px 0 0 12px;
 }
 
+.bpw-layout a{
+    text-decoration: none;
+    color: white;
+   }
+
 .bpw-keyboard-single-choice{
     border: 0.5px solid rgba(79, 100, 111, 0.7);
 }
@@ -122,6 +127,8 @@
     background-color: #00c49aff;
    
   }
+
+
 
 
   /* Responsive  */
