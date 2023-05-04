@@ -102,6 +102,37 @@
   }
 
 
+  /* Responsive  */
+
+  @media screen and (max-width: 768px){
+    .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
+        font-size: 10px;
+        
+        
+    }
+    
+    .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content{
+        font-size: 10px;
+        
+    }
+
+    .bpw-bot-avatar img, .bpw-bot-avatar svg {
+        width: 17px;
+        height: 17px;
+    }
+
+    .bpw-layout{
+        font-family: 'Ysabeau', sans-serif;
+        background: wheat;
+        box-shadow: 0 1px 2px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 60px );
+        -webkit-backdrop-filter: blur( §0px );
+        border-radius: 12px 0 0 12px;
+    }
+    
+  }
+
+
  
  
   
